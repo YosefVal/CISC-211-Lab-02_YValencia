@@ -53,8 +53,7 @@ asmFunc:
     push {r4-r11,LR}
     
     /*** STUDENTS: Place your code BELOW this line!!! **************/
-    ADD LR, r4, r11
-    
+    add r0, r1
     /*** STUDENTS: Place your code ABOVE this line!!! **************/
     
     /* restore the caller's registers, as required by the 
